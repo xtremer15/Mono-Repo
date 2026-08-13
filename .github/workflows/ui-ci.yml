@@ -11,6 +11,10 @@ on:
     paths:
       - 'UI/**'
       - '.github/workflows/ui-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write # Necesar pentru a putea da push pe gh-pages
 
 jobs:
   playwright-tests:
@@ -48,6 +52,16 @@ jobs:
             UI/playwright-report/
             UI/test-results/
           retention-days: 30
+
+      - name: Publish to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: UI/playwright-report # Playwright genereaza HTML-ul aici
+          destination_dir: ui-report
+          keep_files: true
 
       - name: Send Slack Notification (Mock)
         if: always()

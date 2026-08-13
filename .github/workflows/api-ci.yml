@@ -11,6 +11,19 @@ on:
     paths:
       - 'API/**'
       - '.github/workflows/api-ci.yml'
+  workflow_dispatch:
+    inputs:
+      env:
+        description: 'Environment to run tests against'
+        required: true
+        default: 'qa'
+        type: choice
+        options:
+          - dev
+          - qa
+
+permissions:
+  contents: write # Necesar pentru ca Github Actions sa poata scrie pe branch-ul gh-pages
 
 jobs:
   build-and-test:
@@ -23,7 +36,7 @@ jobs:
       BASE_URL: "https://api.mapbox.com"
       LOG_LEVEL: "debug"
       TIMEOUT: "30"
-      ENV_NAME: "qa"
+      ENV_NAME: ${{ github.event.inputs.env || 'qa' }}
 
     steps:
       - name: Checkout Repository
@@ -37,7 +50,7 @@ jobs:
           cache: maven
           
       - name: Run API Tests
-        run: mvn clean test -Denv=qa
+        run: mvn clean test -Denv=${{ env.ENV_NAME }}
         
       - name: Generate Allure Report
         if: always()
@@ -53,6 +66,16 @@ jobs:
             API/target/site/allure-maven-plugin/
             API/target/test-status/
           retention-days: 7
+
+      - name: Publish to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: API/target/site/allure-maven-plugin
+          destination_dir: api-report
+          keep_files: true # Tine si celelalte rapoarte (UI/Perf) daca se uploadeaza ulterior
 
       - name: Send Slack Notification (Mock)
         if: always()

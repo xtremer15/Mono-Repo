@@ -11,6 +11,28 @@ on:
     paths:
       - 'Perf/**'
       - '.github/workflows/perf-ci.yml'
+  workflow_dispatch:
+    inputs:
+      env:
+        description: 'Environment to run tests against'
+        required: true
+        default: 'qa'
+        type: choice
+        options:
+          - dev
+          - qa
+      workload:
+        description: 'Workload type'
+        required: true
+        default: 'load'
+        type: choice
+        options:
+          - smoke
+          - load
+          - stress
+
+permissions:
+  contents: write # Necesar pentru a putea da push pe gh-pages
 
 jobs:
   load-test:
@@ -32,7 +54,7 @@ jobs:
         uses: grafana/k6-action@v0.3.1
         with:
           filename: Perf/dist/homepage.spec.bundle.js
-          flags: -e TARGET_ENV=qa -e WORKLOAD=load
+          flags: -e TARGET_ENV=${{ github.event.inputs.env || 'qa' }} -e WORKLOAD=${{ github.event.inputs.workload || 'load' }}
 
       - name: Upload k6 html report
         if: always()
@@ -41,6 +63,22 @@ jobs:
           name: perf-html-report
           path: Perf/html-report.html
           retention-days: 7
+
+      - name: Prepare Perf Report for GitHub Pages
+        if: always()
+        run: |
+          mkdir -p Perf/gh-pages-report
+          cp Perf/html-report.html Perf/gh-pages-report/index.html || true
+
+      - name: Publish to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: Perf/gh-pages-report
+          destination_dir: perf-report
+          keep_files: true
 
       - name: Send Slack Notification (Mock)
         if: always()
