@@ -23,11 +23,16 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         
+      - name: Install Node and Build
+        run: |
+          npm ci
+          npm run build
+          
       - name: Run k6 load test
-        # We use the grafana/k6 docker image to match the GitLab CI configuration
-        run: docker run --rm -v ${{ github.workspace }}/Perf:/src -w /src grafana/k6:latest run -e TARGET_ENV=qa -e WORKLOAD=load src/e2e/homepage.spec.ts
-        env:
-          GRAFANA_CLOUD_TOKEN: ${{ secrets.GRAFANA_CLOUD_TOKEN }}
+        uses: grafana/k6-action@v0.3.1
+        with:
+          filename: Perf/dist/homepage.spec.bundle.js
+          flags: -e TARGET_ENV=qa -e WORKLOAD=load
 
       - name: Upload k6 html report
         if: always()

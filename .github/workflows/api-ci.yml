@@ -23,7 +23,7 @@ jobs:
       BASE_URL: "https://api.mapbox.com"
       LOG_LEVEL: "debug"
       TIMEOUT: "30"
-      ENV_NAME: "ci"
+      ENV_NAME: "qa"
 
     steps:
       - name: Checkout Repository
@@ -37,7 +37,7 @@ jobs:
           cache: maven
           
       - name: Run API Tests
-        run: mvn clean test -Denv=ci
+        run: mvn clean test -Denv=qa
         
       - name: Generate Allure Report
         if: always()
