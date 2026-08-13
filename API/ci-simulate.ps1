@@ -5,7 +5,7 @@ $env:BASE_URL = "https://api.mapbox.com"
 $env:LOG_LEVEL = "debug"
 $env:TIMEOUT = "99"
 $env:ENV_NAME = "QA"
-$env:API_KEY = "sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ"
+$env:API_KEY = ""
 
 Write-Host "CI env vars set:"
 Write-Host "  BASE_URL  = $env:BASE_URL"
