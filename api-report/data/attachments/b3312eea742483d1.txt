@@ -1,0 +1,8 @@
+Status Code:
+401
+
+Body:
+{
+    "message": "Not Authorized",
+    "error_detail": "Direct access not allowed"
+}

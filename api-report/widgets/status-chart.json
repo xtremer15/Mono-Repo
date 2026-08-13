@@ -1,71 +1,81 @@
 [ {
-  "uid" : "da2a1c9fa47b7bf0",
-  "name" : "Verify successful feature creation in Mapbox Datasets API (200 OK)",
-  "time" : {
-    "start" : 1786656211722,
-    "stop" : 1786656212116,
-    "duration" : 394
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d901c9f4dcf058cd",
-  "name" : "Verify reading a feature returns 304 Not Modified when providing EntityTag",
-  "time" : {
-    "start" : 1786656207918,
-    "stop" : 1786656209079,
-    "duration" : 1161
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fb5172825c5a6d54",
-  "name" : "Verify successful feature creation in Mapbox Datasets API (200 OK)",
-  "time" : {
-    "start" : 1786656207919,
-    "stop" : 1786656208885,
-    "duration" : 966
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "66efaa7e77f6836",
-  "name" : "Verify updating a feature with PUT (200 OK)",
-  "time" : {
-    "start" : 1786656207918,
-    "stop" : 1786656209000,
-    "duration" : 1082
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b92eb3e2c10b5987",
-  "name" : "Verify unauthorized access without valid API Key (401 Unauthorized)",
-  "time" : {
-    "start" : 1786656207919,
-    "stop" : 1786656208289,
-    "duration" : 370
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b813a26ff9269373",
+  "uid" : "a7c2035fcd90e641",
   "name" : "Verify patching a dataset metadata (200 OK)",
   "time" : {
-    "start" : 1786656207918,
-    "stop" : 1786656208589,
-    "duration" : 671
+    "start" : 1786657620419,
+    "stop" : 1786657620419,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "b0f3624c6a568919",
+  "uid" : "349de6749ecab988",
+  "name" : "Verify updating a feature with PUT (200 OK)",
+  "time" : {
+    "start" : 1786657620418,
+    "stop" : 1786657620419,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "745b4dcac00a966e",
   "name" : "Verify successful feature creation in Mapbox Datasets API (200 OK)",
   "time" : {
-    "start" : 1786656210230,
-    "stop" : 1786656210623,
-    "duration" : 393
+    "start" : 1786657620436,
+    "stop" : 1786657620436,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "eb96e1f24a0bf605",
+  "name" : "Verify unauthorized access without valid API Key (401 Unauthorized)",
+  "time" : {
+    "start" : 1786657620417,
+    "stop" : 1786657620418,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "29c09cf8674c3f4c",
+  "name" : "Verify successful feature creation in Mapbox Datasets API (200 OK)",
+  "time" : {
+    "start" : 1786657620418,
+    "stop" : 1786657620418,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "aabba4cb7b3274ab",
+  "name" : "setup",
+  "time" : {
+    "start" : 1786657620402,
+    "stop" : 1786657620405,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "27fe52db44249d6a",
+  "name" : "Verify reading a feature returns 304 Not Modified when providing EntityTag",
+  "time" : {
+    "start" : 1786657620416,
+    "stop" : 1786657620420,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "538433b593f83ea1",
+  "name" : "Verify successful feature creation in Mapbox Datasets API (200 OK)",
+  "time" : {
+    "start" : 1786657620428,
+    "stop" : 1786657620429,
+    "duration" : 1
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]
