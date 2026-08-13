@@ -1,0 +1,26 @@
+stages:
+  - test
+
+# Define global variables if needed
+variables:
+  # Example: If you need to pass secrets or specific variables
+  GRAFANA_CLOUD_TOKEN: $GRAFANA_CLOUD_TOKEN
+
+k6-load-test:
+  stage: test
+  image:
+    name: grafana/k6:latest
+    entrypoint: [""] # Required for GitLab CI when using this image
+  script:
+    - echo "Running k6 load test on QA environment..."
+    # Run the test against QA environment using the Load workload
+    - k6 run -e TARGET_ENV=qa -e WORKLOAD=load src/e2e/homepage.spec.ts
+  artifacts:
+    paths:
+      # If you output a report, ensure you capture it
+      - html-report.html
+    expire_in: 1 week
+  rules:
+    # Run only on main branch or on merge requests, adjust as necessary
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"

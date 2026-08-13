@@ -1,0 +1,47 @@
+name: Perf CI
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'Perf/**'
+      - '.github/workflows/perf-ci.yml'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'Perf/**'
+      - '.github/workflows/perf-ci.yml'
+
+jobs:
+  load-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Perf
+        
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Run k6 load test
+        # We use the grafana/k6 docker image to match the GitLab CI configuration
+        run: docker run --rm -v ${{ github.workspace }}/Perf:/src -w /src grafana/k6:latest run -e TARGET_ENV=qa -e WORKLOAD=load src/e2e/homepage.spec.ts
+        env:
+          GRAFANA_CLOUD_TOKEN: ${{ secrets.GRAFANA_CLOUD_TOKEN }}
+
+      - name: Upload k6 html report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: perf-html-report
+          path: Perf/html-report.html
+          retention-days: 7
+
+      - name: Send Slack Notification
+        if: always()
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

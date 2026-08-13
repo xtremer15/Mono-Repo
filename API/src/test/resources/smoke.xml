@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mapbox API Tests" parallel="true" thread-count="5">
+    <listeners>
+        <listener class-name="reporter.CustomReporter"/>
+        <listener class-name="hooks.Hooks"/>
+    </listeners>
+    <test name="smoke">
+        <classes>
+            <class name="mapbox.LocationTests"/>
+        </classes>
+    </test>
+</suite>

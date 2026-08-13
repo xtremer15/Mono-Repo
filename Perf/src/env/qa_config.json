@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://demoblaze.com/",
+  "env": "qa",
+  "envName": "Quality Assurance",
+  "logger": {
+    "enabled": true,
+    "logLevel": "INFO"
+  },
+  "portNr": 443,
+  "proxyUrl": "",
+  "DBConnectionString": "",
+  "featureFlags": {}
+}

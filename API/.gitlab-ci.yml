@@ -1,0 +1,51 @@
+image: maven:3.9.4-eclipse-temurin-17
+
+stages:
+  - test
+  - report
+
+variables:
+  BASE_URL: "https://api.mapbox.com"
+  LOG_LEVEL: "debug"
+  TIMEOUT: "30"
+  ENV_NAME: "ci"
+
+api_tests:
+  stage: test
+  script:
+    - echo "Running API Tests..."
+    - mvn clean test -Denv=ci
+  artifacts:
+    when: always
+    paths:
+      - target/allure-results
+      - target/test-status
+    expire_in: 1 week
+    reports:
+      junit: target/surefire-reports/TEST-*.xml
+
+allure_report:
+  stage: report
+  script:
+    - echo "Generating Allure Report..."
+    - mvn allure:report
+  dependencies:
+    - api_tests
+  artifacts:
+    when: always
+    paths:
+      - target/site/allure-maven-plugin
+    expire_in: 1 week
+
+pages:
+  stage: report
+  script:
+    - mkdir -p public
+    - cp -r target/site/allure-maven-plugin/* public/
+  dependencies:
+    - allure_report
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'

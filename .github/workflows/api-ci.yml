@@ -1,0 +1,64 @@
+name: API CI
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'API/**'
+      - '.github/workflows/api-ci.yml'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'API/**'
+      - '.github/workflows/api-ci.yml'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./API
+    
+    env:
+      BASE_URL: "https://api.mapbox.com"
+      LOG_LEVEL: "debug"
+      TIMEOUT: "30"
+      ENV_NAME: "ci"
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
+          
+      - name: Run API Tests
+        run: mvn clean test -Denv=ci
+        
+      - name: Generate Allure Report
+        if: always()
+        run: mvn allure:report
+        
+      - name: Upload Test Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-test-results
+          path: |
+            API/target/allure-results/
+            API/target/site/allure-maven-plugin/
+            API/target/test-status/
+          retention-days: 7
+
+      - name: Send Slack Notification
+        if: always()
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

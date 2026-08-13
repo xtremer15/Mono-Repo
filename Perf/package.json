@@ -1,0 +1,22 @@
+{
+  "name": "perf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "k6 run",
+    "test:qa": "k6 run -e TARGET_ENV=qa -e WORKLOAD=load",
+    "test:dashboard": "node scripts/dashboard.js",
+    "test:debug": "node scripts/debug.js"
+  },
+  "keywords": [],
+  "author": "Mihai Constantin",
+  "license": "ISC",
+  "description": "Load testing for http/s protocol using k6",
+  "devDependencies": {
+    "@types/k6": "^2.0.1",
+    "cross-env": "^10.1.0",
+    "esbuild": "^0.28.2",
+    "glob": "^13.0.6"
+  }
+}

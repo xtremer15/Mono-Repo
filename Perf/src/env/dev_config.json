@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://demoblaze.com/",
+  "env": "dev",
+  "envName": "Development",
+  "logger": {
+    "enabled": true,
+    "logLevel": "DEBUG"
+  },
+  "portNr": 443,
+  "proxyUrl": "",
+  "DBConnectionString": "",
+  "featureFlags": {}
+}
