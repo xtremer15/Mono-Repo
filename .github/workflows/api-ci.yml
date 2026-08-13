@@ -37,6 +37,7 @@ jobs:
       LOG_LEVEL: "debug"
       TIMEOUT: "30"
       ENV_NAME: ${{ github.event.inputs.env || 'qa' }}
+      API_KEY: ${{ secrets.MAPBOX_API_KEY }}
 
     steps:
       - name: Checkout Repository
