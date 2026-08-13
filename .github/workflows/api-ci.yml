@@ -54,11 +54,6 @@ jobs:
             API/target/test-status/
           retention-days: 7
 
-      - name: Send Slack Notification
+      - name: Send Slack Notification (Mock)
         if: always()
-        uses: 8398a7/action-slack@v3
-        with:
-          status: ${{ job.status }}
-          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: echo "Mocking Slack Notification... Status is ${{ job.status }}"
