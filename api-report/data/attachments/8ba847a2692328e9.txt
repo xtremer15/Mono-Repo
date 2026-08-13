@@ -1,0 +1,18 @@
+Status Code:
+200
+
+Body:
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Sauermouth"
+    },
+    "geometry": {
+        "coordinates": [
+            -102.28196,
+            -81.005033
+        ],
+        "type": "Point"
+    },
+    "id": "feature-304"
+}

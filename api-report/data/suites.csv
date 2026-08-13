@@ -1,0 +1,8 @@
+"Status","Name","Duration in ms","Description"
+"passed","mapbox.LocationTests.testCreateFeatureSuccess","363",""
+"passed","mapbox.LocationTests.testCreateFeatureSuccess","1426",""
+"passed","mapbox.LocationTests.testPatchDatasetSuccess","931",""
+"passed","mapbox.LocationTests.testUpdateFeatureSuccess","1341",""
+"passed","mapbox.LocationTests.testCreateFeatureUnauthorized","575",""
+"passed","mapbox.LocationTests.testCreateFeatureSuccess","363",""
+"passed","mapbox.LocationTests.testFeatureNotModified","1194",""

@@ -1,0 +1,18 @@
+Status Code:
+200
+
+Body:
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Special Chars !@#$%"
+    },
+    "geometry": {
+        "coordinates": [
+            -29.522694,
+            -28.832418
+        ],
+        "type": "Point"
+    },
+    "id": "feature-special"
+}

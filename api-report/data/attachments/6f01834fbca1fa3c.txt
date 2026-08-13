@@ -1,0 +1,18 @@
+Status Code:
+200
+
+Body:
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Rosaborough"
+    },
+    "geometry": {
+        "coordinates": [
+            98.377913,
+            -58.565358
+        ],
+        "type": "Point"
+    },
+    "id": "feature-to-update"
+}
