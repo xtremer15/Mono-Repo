@@ -1,0 +1,17 @@
+Method:
+PUT
+
+Url:
+https://api.mapbox.com/datasets/v1/mihaiqtr15/cmss0z7ri03rr1pn0lna6jv30/features/feature-special?access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ
+
+path:
+/datasets/v1/mihaiqtr15/cmss0z7ri03rr1pn0lna6jv30/features/feature-special
+
+access-token:
+sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ
+
+query-params:
+{access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ}
+
+Body:
+{"id":"feature-special","type":"Feature","geometry":{"type":"Point","coordinates":[-11.67611,67.391766]},"properties":{"name":"Special Chars !@#$%"}}

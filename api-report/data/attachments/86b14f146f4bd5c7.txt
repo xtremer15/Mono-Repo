@@ -1,0 +1,17 @@
+Method:
+PUT
+
+Url:
+https://api.mapbox.com/datasets/v1/mihaiqtr15/cmss0z4b500xl1no66ffhi5dv/features/feature-to-update?access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ
+
+path:
+/datasets/v1/mihaiqtr15/cmss0z4b500xl1no66ffhi5dv/features/feature-to-update
+
+access-token:
+sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ
+
+query-params:
+{access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ}
+
+Body:
+{"id":"feature-to-update","type":"Feature","geometry":{"type":"Point","coordinates":[-150.54153,-43.179694]},"properties":{"name":"Updated Location Name"}}

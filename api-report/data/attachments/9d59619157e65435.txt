@@ -1,0 +1,18 @@
+Status Code:
+200
+
+Body:
+{
+    "type": "Feature",
+    "properties": {
+        "name": "O'Haramouth"
+    },
+    "geometry": {
+        "coordinates": [
+            160.5717,
+            -32.382646
+        ],
+        "type": "Point"
+    },
+    "id": "feature-304"
+}

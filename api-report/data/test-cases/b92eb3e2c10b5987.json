@@ -1,0 +1,154 @@
+{
+  "uid" : "b92eb3e2c10b5987",
+  "name" : "Verify unauthorized access without valid API Key (401 Unauthorized)",
+  "fullName" : "mapbox.LocationTests.testCreateFeatureUnauthorized",
+  "historyId" : "70612a056ea71a0243d8dce2e63fcc8d",
+  "time" : {
+    "start" : 1786656207919,
+    "stop" : 1786656208289,
+    "duration" : 370
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1786656205010,
+      "stop" : 1786656207834,
+      "duration" : 2824
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "332f43dbc01100ed",
+      "name" : "Custom Request: POST",
+      "source" : "332f43dbc01100ed.txt",
+      "type" : "text/plain",
+      "size" : 507
+    }, {
+      "uid" : "6319d39c6975baeb",
+      "name" : "Custom Response: 200",
+      "source" : "6319d39c6975baeb.txt",
+      "type" : "text/plain",
+      "size" : 354
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f9d85434a82c922",
+      "name" : "Custom Request: PUT",
+      "source" : "1f9d85434a82c922.txt",
+      "type" : "text/plain",
+      "size" : 765
+    }, {
+      "uid" : "adc65f44d9bd6dc7",
+      "name" : "Custom Response: 401",
+      "source" : "adc65f44d9bd6dc7.txt",
+      "type" : "text/plain",
+      "size" : 76
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1786656208298,
+      "stop" : 1786656209146,
+      "duration" : 848
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b501ed84313f7196",
+      "name" : "Custom Request: DELETE",
+      "source" : "b501ed84313f7196.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "769a70eb1dbfc230",
+      "name" : "Custom Response: 204",
+      "source" : "769a70eb1dbfc230.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateFeatureUnauthorized"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Mapbox API Tests"
+  }, {
+    "name" : "suite",
+    "value" : "smoke"
+  }, {
+    "name" : "subSuite",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "host",
+    "value" : "runnervmvrwv9"
+  }, {
+    "name" : "thread",
+    "value" : "2557@runnervmvrwv9.TestNG-test-smoke-2(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "uuid",
+    "value" : "80d6a9ab-596c-4882-82b8-abaf90fe6130"
+  }, {
+    "name" : "env",
+    "value" : "dev"
+  }, {
+    "name" : "thread",
+    "value" : "20"
+  }, {
+    "name" : "tag",
+    "value" : "BUG"
+  }, {
+    "name" : "tag",
+    "value" : "SMOKE"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "BUG", "SMOKE" ]
+  },
+  "source" : "b92eb3e2c10b5987.json",
+  "parameterValues" : [ ]
+}

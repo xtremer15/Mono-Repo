@@ -1,0 +1,17 @@
+Method:
+PUT
+
+Url:
+https://api.mapbox.com/datasets/v1/mihaiqtr15/cmss0z69h4vm01pqodd2l3346/features/feature-num?access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ
+
+path:
+/datasets/v1/mihaiqtr15/cmss0z69h4vm01pqodd2l3346/features/feature-num
+
+access-token:
+sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ
+
+query-params:
+{access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ}
+
+Body:
+{"id":"feature-num","type":"Feature","geometry":{"type":"Point","coordinates":[-18.469224,-28.088922]},"properties":{"name":"Location with numbers 123"}}

@@ -1,0 +1,17 @@
+Method:
+DELETE
+
+Url:
+https://api.mapbox.com/datasets/v1/mihaiqtr15/cmss0z7ri03rr1pn0lna6jv30?access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ
+
+path:
+/datasets/v1/mihaiqtr15/cmss0z7ri03rr1pn0lna6jv30
+
+access-token:
+sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ
+
+query-params:
+{access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ}
+
+Body:
+

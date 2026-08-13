@@ -1,0 +1,154 @@
+{
+  "uid" : "b813a26ff9269373",
+  "name" : "Verify patching a dataset metadata (200 OK)",
+  "fullName" : "mapbox.LocationTests.testPatchDatasetSuccess",
+  "historyId" : "d09663f6c1a72f420b6ec03bbb0812f2",
+  "time" : {
+    "start" : 1786656207918,
+    "stop" : 1786656208589,
+    "duration" : 671
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1786656205010,
+      "stop" : 1786656207835,
+      "duration" : 2825
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dc4fc19f24e556ff",
+      "name" : "Custom Request: POST",
+      "source" : "dc4fc19f24e556ff.txt",
+      "type" : "text/plain",
+      "size" : 507
+    }, {
+      "uid" : "aca5517b1ebb24fb",
+      "name" : "Custom Response: 200",
+      "source" : "aca5517b1ebb24fb.txt",
+      "type" : "text/plain",
+      "size" : 354
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e8a377d695db9e72",
+      "name" : "Custom Request: PATCH",
+      "source" : "e8a377d695db9e72.txt",
+      "type" : "text/plain",
+      "size" : 564
+    }, {
+      "uid" : "8e7e85ff4cc4263f",
+      "name" : "Custom Response: 200",
+      "source" : "8e7e85ff4cc4263f.txt",
+      "type" : "text/plain",
+      "size" : 358
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1786656208596,
+      "stop" : 1786656209029,
+      "duration" : 433
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df3ad849593bbb71",
+      "name" : "Custom Request: DELETE",
+      "source" : "df3ad849593bbb71.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "70b53f1f2282c8f1",
+      "name" : "Custom Response: 204",
+      "source" : "70b53f1f2282c8f1.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testPatchDatasetSuccess"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Mapbox API Tests"
+  }, {
+    "name" : "suite",
+    "value" : "smoke"
+  }, {
+    "name" : "subSuite",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "host",
+    "value" : "runnervmvrwv9"
+  }, {
+    "name" : "thread",
+    "value" : "2557@runnervmvrwv9.TestNG-test-smoke-4(22)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "uuid",
+    "value" : "8c5566c7-554a-45c8-aa67-b127666380b4"
+  }, {
+    "name" : "env",
+    "value" : "dev"
+  }, {
+    "name" : "thread",
+    "value" : "22"
+  }, {
+    "name" : "tag",
+    "value" : "REGRESSION"
+  }, {
+    "name" : "tag",
+    "value" : "SMOKE"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "REGRESSION", "SMOKE" ]
+  },
+  "source" : "b813a26ff9269373.json",
+  "parameterValues" : [ ]
+}

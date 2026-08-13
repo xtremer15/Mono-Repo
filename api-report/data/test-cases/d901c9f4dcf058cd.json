@@ -1,0 +1,166 @@
+{
+  "uid" : "d901c9f4dcf058cd",
+  "name" : "Verify reading a feature returns 304 Not Modified when providing EntityTag",
+  "fullName" : "mapbox.LocationTests.testFeatureNotModified",
+  "historyId" : "3be4e448a478d536c7c2d209fcee0563",
+  "time" : {
+    "start" : 1786656207918,
+    "stop" : 1786656209079,
+    "duration" : 1161
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1786656205011,
+      "stop" : 1786656207835,
+      "duration" : 2824
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b03eeb7aeebddaf9",
+      "name" : "Custom Request: POST",
+      "source" : "b03eeb7aeebddaf9.txt",
+      "type" : "text/plain",
+      "size" : 507
+    }, {
+      "uid" : "b57d42ff16c0630",
+      "name" : "Custom Response: 200",
+      "source" : "b57d42ff16c0630.txt",
+      "type" : "text/plain",
+      "size" : 354
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4433a80215c3786e",
+      "name" : "Custom Request: PUT",
+      "source" : "4433a80215c3786e.txt",
+      "type" : "text/plain",
+      "size" : 674
+    }, {
+      "uid" : "9d59619157e65435",
+      "name" : "Custom Response: 200",
+      "source" : "9d59619157e65435.txt",
+      "type" : "text/plain",
+      "size" : 262
+    }, {
+      "uid" : "ead330e79893ceee",
+      "name" : "Custom Request: GET",
+      "source" : "ead330e79893ceee.txt",
+      "type" : "text/plain",
+      "size" : 537
+    }, {
+      "uid" : "c30e9e811cdc66b9",
+      "name" : "Custom Response: 304",
+      "source" : "c30e9e811cdc66b9.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1786656209080,
+      "stop" : 1786656209819,
+      "duration" : 739
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a9ef9ac5e6886830",
+      "name" : "Custom Request: DELETE",
+      "source" : "a9ef9ac5e6886830.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "a73ef7a59b6207b1",
+      "name" : "Custom Response: 204",
+      "source" : "a73ef7a59b6207b1.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFeatureNotModified"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Mapbox API Tests"
+  }, {
+    "name" : "suite",
+    "value" : "smoke"
+  }, {
+    "name" : "subSuite",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "host",
+    "value" : "runnervmvrwv9"
+  }, {
+    "name" : "thread",
+    "value" : "2557@runnervmvrwv9.TestNG-test-smoke-3(21)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "uuid",
+    "value" : "22c083d5-f3bf-452a-9cc4-c5e85cc5b626"
+  }, {
+    "name" : "env",
+    "value" : "dev"
+  }, {
+    "name" : "thread",
+    "value" : "21"
+  }, {
+    "name" : "tag",
+    "value" : "REGRESSION"
+  }, {
+    "name" : "tag",
+    "value" : "SMOKE"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "REGRESSION", "SMOKE" ]
+  },
+  "source" : "d901c9f4dcf058cd.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,17 @@
+Method:
+PUT
+
+Url:
+https://api.mapbox.com/datasets/v1/mihaiqtr15/cmss0z4cq03rq1pn02tqyace2/features/feature-invalid?access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ&access_token=invalid_token_123
+
+path:
+/datasets/v1/mihaiqtr15/cmss0z4cq03rq1pn02tqyace2/features/feature-invalid
+
+access-token:
+[sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ, invalid_token_123]
+
+query-params:
+{access_token=[sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNveGQ3Zm4wODl3MnlzYmZhYXdqNDduIn0.S_6pGvPrD2pFdC4VIjA6WQ, invalid_token_123]}
+
+Body:
+{"id":"feature-invalid","type":"Feature","geometry":{"type":"Point","coordinates":[148.04375,-5.4129698]},"properties":{"name":"East Marciaburgh"}}
