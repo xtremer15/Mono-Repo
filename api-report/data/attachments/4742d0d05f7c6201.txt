@@ -1,0 +1,17 @@
+Method:
+PUT
+
+Url:
+https://api.mapbox.com/datasets/v1/mihaiqtr15/cmss29nv5041o1nn0do1ujj5c/features/feature-invalid?access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA&access_token=invalid_token_123
+
+path:
+/datasets/v1/mihaiqtr15/cmss29nv5041o1nn0do1ujj5c/features/feature-invalid
+
+access-token:
+[sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA, invalid_token_123]
+
+query-params:
+{access_token=[sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA, invalid_token_123]}
+
+Body:
+{"id":"feature-invalid","type":"Feature","geometry":{"type":"Point","coordinates":[69.274807,89.058195]},"properties":{"name":"South Mario"}}

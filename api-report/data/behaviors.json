@@ -2,98 +2,86 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "setup",
-    "uid" : "a6a68ef5e1c60bbc",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1786657963017,
-      "stop" : 1786657963018,
-      "duration" : 1
-    },
-    "flaky" : true,
-    "parameters" : [ ]
-  }, {
     "name" : "Verify patching a dataset metadata (200 OK)",
-    "uid" : "59496ac717b04f50",
+    "uid" : "7dda18a8b10848a0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
+    "status" : "passed",
     "time" : {
-      "start" : 1786657963036,
-      "stop" : 1786657963040,
-      "duration" : 4
+      "start" : 1786658379823,
+      "stop" : 1786658380631,
+      "duration" : 808
     },
     "flaky" : false,
     "parameters" : [ ]
-  }, {
-    "name" : "Verify successful feature creation in Mapbox Datasets API (200 OK)",
-    "uid" : "766ca5d51f42294b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1786657963038,
-      "stop" : 1786657963040,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "parameters" : [ "Standard Location", "feature-std" ]
   }, {
     "name" : "Verify unauthorized access without valid API Key (401 Unauthorized)",
-    "uid" : "c7fae0a066d17ad5",
+    "uid" : "54d563112f913bfd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
+    "status" : "passed",
     "time" : {
-      "start" : 1786657963038,
-      "stop" : 1786657963041,
-      "duration" : 3
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Verify updating a feature with PUT (200 OK)",
-    "uid" : "d754da38e09fde75",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1786657963038,
-      "stop" : 1786657963039,
-      "duration" : 1
+      "start" : 1786658379823,
+      "stop" : 1786658380275,
+      "duration" : 452
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Verify reading a feature returns 304 Not Modified when providing EntityTag",
-    "uid" : "55a9e91e6ab89883",
+    "uid" : "da4e21c9c8046944",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
+    "status" : "passed",
     "time" : {
-      "start" : 1786657963039,
-      "stop" : 1786657963039,
-      "duration" : 0
+      "start" : 1786658379825,
+      "stop" : 1786658381501,
+      "duration" : 1676
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Verify successful feature creation in Mapbox Datasets API (200 OK)",
-    "uid" : "19086d828bb33ef1",
+    "uid" : "78f041b8d59473a4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
+    "status" : "passed",
     "time" : {
-      "start" : 1786657963055,
-      "stop" : 1786657963055,
-      "duration" : 0
+      "start" : 1786658379825,
+      "stop" : 1786658380914,
+      "duration" : 1089
+    },
+    "flaky" : false,
+    "parameters" : [ "Standard Location", "feature-std" ]
+  }, {
+    "name" : "Verify updating a feature with PUT (200 OK)",
+    "uid" : "afbdef2406704",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1786658379828,
+      "stop" : 1786658381639,
+      "duration" : 1811
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify successful feature creation in Mapbox Datasets API (200 OK)",
+    "uid" : "8beb4bc928da7f26",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1786658382168,
+      "stop" : 1786658382565,
+      "duration" : 397
     },
     "flaky" : false,
     "parameters" : [ "Location with numbers 123", "feature-num" ]
   }, {
     "name" : "Verify successful feature creation in Mapbox Datasets API (200 OK)",
-    "uid" : "6917ba685e5b07dd",
+    "uid" : "a09e403381f00af4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "skipped",
+    "status" : "passed",
     "time" : {
-      "start" : 1786657963061,
-      "stop" : 1786657963061,
-      "duration" : 0
+      "start" : 1786658384121,
+      "stop" : 1786658384521,
+      "duration" : 400
     },
     "flaky" : false,
     "parameters" : [ "Special Chars !@#$%", "feature-special" ]

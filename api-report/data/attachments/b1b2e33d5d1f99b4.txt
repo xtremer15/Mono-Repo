@@ -1,0 +1,18 @@
+Status Code:
+200
+
+Body:
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Location with numbers 123"
+    },
+    "geometry": {
+        "coordinates": [
+            136.22749,
+            27.961828
+        ],
+        "type": "Point"
+    },
+    "id": "feature-num"
+}

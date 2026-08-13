@@ -1,0 +1,166 @@
+{
+  "uid" : "afbdef2406704",
+  "name" : "Verify updating a feature with PUT (200 OK)",
+  "fullName" : "mapbox.LocationTests.testUpdateFeatureSuccess",
+  "historyId" : "d580b087cc15b737092fa982937f5314",
+  "time" : {
+    "start" : 1786658379828,
+    "stop" : 1786658381639,
+    "duration" : 1811
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1786658376337,
+      "stop" : 1786658379759,
+      "duration" : 3422
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81e4a6050acbeba9",
+      "name" : "Custom Request: POST",
+      "source" : "81e4a6050acbeba9.txt",
+      "type" : "text/plain",
+      "size" : 507
+    }, {
+      "uid" : "d5f2691a59d1d89a",
+      "name" : "Custom Response: 200",
+      "source" : "d5f2691a59d1d89a.txt",
+      "type" : "text/plain",
+      "size" : 354
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "12cb106eb2a5494f",
+      "name" : "Custom Request: PUT",
+      "source" : "12cb106eb2a5494f.txt",
+      "type" : "text/plain",
+      "size" : 692
+    }, {
+      "uid" : "f8ee06a47e11d793",
+      "name" : "Custom Response: 200",
+      "source" : "f8ee06a47e11d793.txt",
+      "type" : "text/plain",
+      "size" : 268
+    }, {
+      "uid" : "ec2f3e6beb4ce696",
+      "name" : "Custom Request: PUT",
+      "source" : "ec2f3e6beb4ce696.txt",
+      "type" : "text/plain",
+      "size" : 703
+    }, {
+      "uid" : "c498da2e3afbe46c",
+      "name" : "Custom Response: 200",
+      "source" : "c498da2e3afbe46c.txt",
+      "type" : "text/plain",
+      "size" : 279
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1786658381640,
+      "stop" : 1786658382084,
+      "duration" : 444
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "192217430514a542",
+      "name" : "Custom Request: DELETE",
+      "source" : "192217430514a542.txt",
+      "type" : "text/plain",
+      "size" : 498
+    }, {
+      "uid" : "1c36522d0110f7af",
+      "name" : "Custom Response: 204",
+      "source" : "1c36522d0110f7af.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUpdateFeatureSuccess"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Mapbox API Tests"
+  }, {
+    "name" : "suite",
+    "value" : "smoke"
+  }, {
+    "name" : "subSuite",
+    "value" : "mapbox.LocationTests"
+  }, {
+    "name" : "host",
+    "value" : "runnervmzvulz"
+  }, {
+    "name" : "thread",
+    "value" : "2209@runnervmzvulz.TestNG-test-smoke-5(23)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "uuid",
+    "value" : "7dcca423-3e74-4b3e-94e5-0e1feb16ec03"
+  }, {
+    "name" : "env",
+    "value" : "dev"
+  }, {
+    "name" : "thread",
+    "value" : "23"
+  }, {
+    "name" : "tag",
+    "value" : "REGRESSION"
+  }, {
+    "name" : "tag",
+    "value" : "SMOKE"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "REGRESSION", "SMOKE" ]
+  },
+  "source" : "afbdef2406704.json",
+  "parameterValues" : [ ]
+}

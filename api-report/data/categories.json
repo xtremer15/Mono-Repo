@@ -1,25 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Dataset ID should not be null during setup expected object to not be null",
-      "children" : [ {
-        "name" : "setup",
-        "uid" : "a6a68ef5e1c60bbc",
-        "parentUid" : "1f56c314092addfb94a8945f418130ab",
-        "status" : "failed",
-        "time" : {
-          "start" : 1786657963017,
-          "stop" : 1786657963018,
-          "duration" : 1
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1f56c314092addfb94a8945f418130ab"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }
