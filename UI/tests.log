@@ -9129,3 +9129,781 @@
 {"level":"success","message":"[Locator.click] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
 {"level":"success","message":"[Locator.isVisible] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}
 {"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your Account Has Been Created!\"}]"}
+{"level":"info","message":"[Intercepted] page.getByText() called with: [\"Congratulations! Your new account has been successfully created!\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Continue\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your Account Has Been Created!\"}]"}
+{"level":"info","message":"[Intercepted] page.getByText() called with: [\"Congratulations! Your new account has been successfully created!\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Continue\"}]"}
+{"level":"success","message":"[Locator.hover] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false})'"}
+{"level":"success","message":"[Locator.hover] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false}).locator(\"..\").locator(\".dropdown-menu\").getByRole(\"link\", {\"name\":\"Register\",\"exact\":true})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false}).locator(\"..\").locator(\".dropdown-menu\").getByRole(\"link\", {\"name\":\"Register\",\"exact\":true})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"First Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Last Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"E-Mail\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password Confirm\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Telephone\")'"}
+{"level":"success","message":"[Locator.check] success on 'locator(\"#content\").locator(\"#input-agree\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"First Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Last Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"E-Mail\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password Confirm\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Telephone\")'"}
+{"level":"success","message":"[Locator.check] success on 'locator(\"#content\").locator(\"#input-agree\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").locator(\"input[type=\\\"submit\\\"][value=\\\"Continue\\\"]\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").locator(\"input[type=\\\"submit\\\"][value=\\\"Continue\\\"]\")'"}
+{"level":"error","message":"[Locator.waitFor] failed on 'locator(\"#alert\").locator(\".alert.alert-danger\")' {\"log\":[\"  - waiting for locator('#alert').locator('.alert.alert-danger') to be visible\"],\"name\":\"TimeoutError\"}"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your Account Has Been Created!\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'getByText(\"Congratulations! Your new account has been successfully created!\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212469\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212457\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".content-title h1.h4\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_216815\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"level\":1}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".breadcrumb-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-dismiss='toast']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert .alert.alert-success\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-shipping-address-new\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-comment\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#button-save\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"button\",{\"name\":\"Confirm Order\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#accordion\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-cart\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-total\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".alert.alert-warning\"]"}
+{"level":"info","message":"[Intercepted] page.getByLabel() called with: [\"I have read and agree to the Terms & Conditions\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your order has been placed!\"}]"}
+{"level":"error","message":"[Locator.waitFor] failed on 'locator(\"#alert\").locator(\".alert.alert-danger\")' {\"log\":[\"  - waiting for locator('#alert').locator('.alert.alert-danger') to be visible\"],\"name\":\"TimeoutError\"}"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your Account Has Been Created!\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'getByText(\"Congratulations! Your new account has been successfully created!\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212469\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212457\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".content-title h1.h4\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_216815\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"level\":1}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".breadcrumb-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-dismiss='toast']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert .alert.alert-success\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-shipping-address-new\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-comment\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#button-save\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"button\",{\"name\":\"Confirm Order\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#accordion\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-cart\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-total\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".alert.alert-warning\"]"}
+{"level":"info","message":"[Intercepted] page.getByLabel() called with: [\"I have read and agree to the Terms & Conditions\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your order has been placed!\"}]"}
+{"level":"success","message":"[Locator.clear] success on 'locator(\"#search\").getByRole(\"textbox\", {\"name\":\"Search For Products\"})'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#search\").getByRole(\"textbox\", {\"name\":\"Search For Products\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_217832\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#search\").getByRole(\"button\", {\"name\":\"Search\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"ul.navbar-nav.vertical > li.nav-item\").getByRole(\"link\", {\"name\":\"Phone, Tablets & Ipod\",\"exact\":true})'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".content-title h1.h4\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#entry_212457\").locator(\"#input-search\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212469\"]"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212469\").locator(\"div.product-layout\").first()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212469\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_212469\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212408\").locator(\"div.product-layout\").first()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212408\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".breadcrumb-item\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#entry_216815\").locator(\"[data-update=\\\"price\\\"]\")'"}
+{"level":"success","message":"[Locator.inputValue] success on 'locator(\"#entry_216815\").locator(\"input[name=\\\"quantity\\\"]\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_212408\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"[data-dismiss='toast']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"[data-id=\\\"217825\\\"] a.cart\").locator(\".cart-item-total\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".breadcrumb-item\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#entry_216815\").locator(\"[data-update=\\\"price\\\"]\")'"}
+{"level":"success","message":"[Locator.inputValue] success on 'locator(\"#entry_216815\").locator(\"input[name=\\\"quantity\\\"]\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"[data-dismiss='toast']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"[data-id=\\\"217825\\\"] a.cart\").locator(\".cart-item-total\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-new\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-country\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-zone\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.check] success on 'getByLabel(\"I have read and agree to the Terms & Conditions\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"VAT (20%)\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"VAT (20%)\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#button-save\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"iPhone\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"iPhone\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-new\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-country\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-zone\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\").locator(\"#input-shipping-address-same\")'"}
+{"level":"success","message":"[Locator.isChecked] success on 'locator(\"#payment-address\").locator(\"#input-shipping-address-same\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"label[for=\\\"input-shipping-address-same\\\"]\"]"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"label[for=\\\"input-shipping-address-same\\\"]\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#input-shipping-address-new\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-firstname\")'"}
+{"level":"success","message":"[Locator.pressSequentially] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-country\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"VAT\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"VAT\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"iPhone\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"iPhone\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-zone\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.check] success on 'getByLabel(\"I have read and agree to the Terms & Conditions\").first()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.isVisible] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#button-save\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(2)'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your Account Has Been Created!\"}]"}
+{"level":"info","message":"[Intercepted] page.getByText() called with: [\"Congratulations! Your new account has been successfully created!\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Continue\"}]"}
+{"level":"success","message":"[Locator.hover] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false}).locator(\"..\").locator(\".dropdown-menu\").getByRole(\"link\", {\"name\":\"Register\",\"exact\":true})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"First Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Last Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"E-Mail\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password Confirm\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Telephone\")'"}
+{"level":"success","message":"[Locator.check] success on 'locator(\"#content\").locator(\"#input-agree\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").locator(\"input[type=\\\"submit\\\"][value=\\\"Continue\\\"]\")'"}
+{"level":"error","message":"[Locator.waitFor] failed on 'locator(\"#alert\").locator(\".alert.alert-danger\")' {\"log\":[\"  - waiting for locator('#alert').locator('.alert.alert-danger') to be visible\"],\"name\":\"TimeoutError\"}"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your Account Has Been Created!\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'getByText(\"Congratulations! Your new account has been successfully created!\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212469\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212457\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".content-title h1.h4\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_216815\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"level\":1}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".breadcrumb-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-dismiss='toast']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert .alert.alert-success\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-shipping-address-new\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-comment\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#button-save\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"button\",{\"name\":\"Confirm Order\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#accordion\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-cart\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-total\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".alert.alert-warning\"]"}
+{"level":"info","message":"[Intercepted] page.getByLabel() called with: [\"I have read and agree to the Terms & Conditions\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your order has been placed!\"}]"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_217832\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"ul.navbar-nav.vertical > li.nav-item\").getByRole(\"link\", {\"name\":\"Phone, Tablets & Ipod\",\"exact\":true})'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212408\").locator(\"div.product-layout\").first()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212408\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_212408\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".breadcrumb-item\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#entry_216815\").locator(\"[data-update=\\\"price\\\"]\")'"}
+{"level":"success","message":"[Locator.inputValue] success on 'locator(\"#entry_216815\").locator(\"input[name=\\\"quantity\\\"]\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"[data-dismiss='toast']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"[data-id=\\\"217825\\\"] a.cart\").locator(\".cart-item-total\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-new\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-country\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-zone\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\").locator(\"#input-shipping-address-same\")'"}
+{"level":"success","message":"[Locator.isChecked] success on 'locator(\"#payment-address\").locator(\"#input-shipping-address-same\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"label[for=\\\"input-shipping-address-same\\\"]\"]"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"label[for=\\\"input-shipping-address-same\\\"]\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#input-shipping-address-new\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-firstname\")'"}
+{"level":"success","message":"[Locator.pressSequentially] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-country\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-zone\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\")'"}
+{"level":"success","message":"[Locator.check] success on 'getByLabel(\"I have read and agree to the Terms & Conditions\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#button-save\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.isVisible] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your Account Has Been Created!\"}]"}
+{"level":"info","message":"[Intercepted] page.getByText() called with: [\"Congratulations! Your new account has been successfully created!\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Continue\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your Account Has Been Created!\"}]"}
+{"level":"info","message":"[Intercepted] page.getByText() called with: [\"Congratulations! Your new account has been successfully created!\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Continue\"}]"}
+{"level":"success","message":"[Locator.hover] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false})'"}
+{"level":"success","message":"[Locator.hover] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false}).locator(\"..\").locator(\".dropdown-menu\").getByRole(\"link\", {\"name\":\"Register\",\"exact\":true})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false}).locator(\"..\").locator(\".dropdown-menu\").getByRole(\"link\", {\"name\":\"Register\",\"exact\":true})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"First Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"First Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Last Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"E-Mail\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Last Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"E-Mail\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password Confirm\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password Confirm\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Telephone\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Telephone\")'"}
+{"level":"success","message":"[Locator.check] success on 'locator(\"#content\").locator(\"#input-agree\")'"}
+{"level":"success","message":"[Locator.check] success on 'locator(\"#content\").locator(\"#input-agree\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").locator(\"input[type=\\\"submit\\\"][value=\\\"Continue\\\"]\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").locator(\"input[type=\\\"submit\\\"][value=\\\"Continue\\\"]\")'"}
+{"level":"error","message":"[Locator.waitFor] failed on 'locator(\"#alert\").locator(\".alert.alert-danger\")' {\"log\":[\"  - waiting for locator('#alert').locator('.alert.alert-danger') to be visible\"],\"name\":\"TimeoutError\"}"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your Account Has Been Created!\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'getByText(\"Congratulations! Your new account has been successfully created!\")'"}
+{"level":"error","message":"[Locator.waitFor] failed on 'locator(\"#alert\").locator(\".alert.alert-danger\")' {\"log\":[\"  - waiting for locator('#alert').locator('.alert.alert-danger') to be visible\"],\"name\":\"TimeoutError\"}"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your Account Has Been Created!\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'getByText(\"Congratulations! Your new account has been successfully created!\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212469\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212457\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".content-title h1.h4\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_216815\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"level\":1}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".breadcrumb-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-dismiss='toast']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert .alert.alert-success\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-shipping-address-new\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-comment\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#button-save\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"button\",{\"name\":\"Confirm Order\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#accordion\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-cart\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-total\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".alert.alert-warning\"]"}
+{"level":"info","message":"[Intercepted] page.getByLabel() called with: [\"I have read and agree to the Terms & Conditions\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your order has been placed!\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212469\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212457\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".content-title h1.h4\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_216815\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"level\":1}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".breadcrumb-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-dismiss='toast']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert .alert.alert-success\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-shipping-address-new\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-comment\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#button-save\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"button\",{\"name\":\"Confirm Order\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#accordion\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-cart\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-total\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".alert.alert-warning\"]"}
+{"level":"info","message":"[Intercepted] page.getByLabel() called with: [\"I have read and agree to the Terms & Conditions\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your order has been placed!\"}]"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_217832\")'"}
+{"level":"success","message":"[Locator.clear] success on 'locator(\"#search\").getByRole(\"textbox\", {\"name\":\"Search For Products\"})'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#search\").getByRole(\"textbox\", {\"name\":\"Search For Products\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#search\").getByRole(\"button\", {\"name\":\"Search\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"ul.navbar-nav.vertical > li.nav-item\").getByRole(\"link\", {\"name\":\"Phone, Tablets & Ipod\",\"exact\":true})'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".content-title h1.h4\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#entry_212457\").locator(\"#input-search\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212469\"]"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212469\").locator(\"div.product-layout\").first()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212469\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212408\").locator(\"div.product-layout\").first()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_212469\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212408\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".breadcrumb-item\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#entry_216815\").locator(\"[data-update=\\\"price\\\"]\")'"}
+{"level":"success","message":"[Locator.inputValue] success on 'locator(\"#entry_216815\").locator(\"input[name=\\\"quantity\\\"]\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_212408\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".breadcrumb-item\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#entry_216815\").locator(\"[data-update=\\\"price\\\"]\")'"}
+{"level":"success","message":"[Locator.inputValue] success on 'locator(\"#entry_216815\").locator(\"input[name=\\\"quantity\\\"]\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"[data-dismiss='toast']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"[data-id=\\\"217825\\\"] a.cart\").locator(\".cart-item-total\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"[data-dismiss='toast']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"[data-id=\\\"217825\\\"] a.cart\").locator(\".cart-item-total\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-new\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-country\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-zone\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\")'"}
+{"level":"success","message":"[Locator.check] success on 'getByLabel(\"I have read and agree to the Terms & Conditions\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"VAT (20%)\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"VAT (20%)\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#button-save\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"iPhone\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"iPhone\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-new\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-country\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-zone\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\").locator(\"#input-shipping-address-same\")'"}
+{"level":"success","message":"[Locator.isChecked] success on 'locator(\"#payment-address\").locator(\"#input-shipping-address-same\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"label[for=\\\"input-shipping-address-same\\\"]\"]"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"label[for=\\\"input-shipping-address-same\\\"]\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#input-shipping-address-new\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-firstname\")'"}
+{"level":"success","message":"[Locator.pressSequentially] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-country\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-zone\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\")'"}
+{"level":"success","message":"[Locator.check] success on 'getByLabel(\"I have read and agree to the Terms & Conditions\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#button-save\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"VAT\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"VAT\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"iPhone\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"iPhone\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.isVisible] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your Account Has Been Created!\"}]"}
+{"level":"info","message":"[Intercepted] page.getByText() called with: [\"Congratulations! Your new account has been successfully created!\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Continue\"}]"}
+{"level":"success","message":"[Locator.hover] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"nav #widget-navbar-217834\").getByRole(\"button\", {\"name\":\"My account\",\"exact\":false}).locator(\"..\").locator(\".dropdown-menu\").getByRole(\"link\", {\"name\":\"Register\",\"exact\":true})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Register Account\"})'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"First Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Last Name\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"E-Mail\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Password Confirm\").first()'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#content\").getByLabel(\"Telephone\")'"}
+{"level":"success","message":"[Locator.check] success on 'locator(\"#content\").locator(\"#input-agree\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").locator(\"input[type=\\\"submit\\\"][value=\\\"Continue\\\"]\")'"}
+{"level":"error","message":"[Locator.waitFor] failed on 'locator(\"#alert\").locator(\".alert.alert-danger\")' {\"log\":[\"  - waiting for locator('#alert').locator('.alert.alert-danger') to be visible\"],\"name\":\"TimeoutError\"}"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your Account Has Been Created!\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'getByText(\"Congratulations! Your new account has been successfully created!\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_217832\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"img[alt='Poco Electro']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"ul.navbar-nav.vertical > li.nav-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#search\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"nav #widget-navbar-217834\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-id=\\\"217825\\\"] a.cart\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Wishlist\"}]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"link\",{\"name\":\"Compare\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#cart-total-drawer\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212469\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212457\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".content-title h1.h4\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_216815\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"level\":1}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".breadcrumb-item\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".toast[role='alert']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"[data-dismiss='toast']\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#alert .alert.alert-success\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-address\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-shipping-address-new\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#payment-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#shipping-method\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#input-comment\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#button-save\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"button\",{\"name\":\"Confirm Order\"}]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#accordion\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-cart\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#checkout-total\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\".alert.alert-warning\"]"}
+{"level":"info","message":"[Intercepted] page.getByLabel() called with: [\"I have read and agree to the Terms & Conditions\"]"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#content\"]"}
+{"level":"info","message":"[Intercepted] page.getByRole() called with: [\"heading\",{\"name\":\"Your order has been placed!\"}]"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_217832\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"ul.navbar-nav.vertical > li.nav-item\").getByRole(\"link\", {\"name\":\"Phone, Tablets & Ipod\",\"exact\":true})'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"#entry_212408\"]"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212408\").locator(\"div.product-layout\").first()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_212408\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_212408\").locator(\".product-thumb .product-thumb-top\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".breadcrumb-item\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#entry_216815\").locator(\"[data-update=\\\"price\\\"]\")'"}
+{"level":"success","message":"[Locator.inputValue] success on 'locator(\"#entry_216815\").locator(\"input[name=\\\"quantity\\\"]\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#entry_216815\").getByRole(\"button\", {\"name\":\"Add to Cart\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\".toast[role='alert']\")'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"[data-dismiss='toast']\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"[data-id=\\\"217825\\\"] a.cart\").locator(\".cart-item-total\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\".toast[role='alert']\").getByRole(\"link\", {\"name\":\"Checkout\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-new\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#payment-address\").locator(\"#input-payment-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-country\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#payment-address\").locator(\"#input-payment-zone\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#payment-address\").locator(\"#input-shipping-address-same\")'"}
+{"level":"success","message":"[Locator.isChecked] success on 'locator(\"#payment-address\").locator(\"#input-shipping-address-same\")'"}
+{"level":"info","message":"[Intercepted] page.locator() called with: [\"label[for=\\\"input-shipping-address-same\\\"]\"]"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"label[for=\\\"input-shipping-address-same\\\"]\")'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#input-shipping-address-new\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-firstname\")'"}
+{"level":"success","message":"[Locator.pressSequentially] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-firstname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-lastname\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-address-1\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-city\")'"}
+{"level":"success","message":"[Locator.fill] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-postcode\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-country\")'"}
+{"level":"success","message":"[Locator.selectOption] success on 'locator(\"#shipping-address\").locator(\"#input-shipping-zone\")'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\")'"}
+{"level":"success","message":"[Locator.check] success on 'getByLabel(\"I have read and agree to the Terms & Conditions\").first()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#checkout-total\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#button-save\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(3)'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Sub-Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Flat Shipping Rate\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\")'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tfoot\").locator(\"tr\").filter({\"hasText\":\"Total\"}).locator(\"td\").last()'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.innerText] success on 'locator(\"#content\").locator(\".table-responsive table\").locator(\"tbody tr\").filter({\"hasText\":\"HTC Touch HD\"}).locator(\"td\").nth(2)'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.isVisible] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"heading\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.waitFor] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.click] success on 'locator(\"#content\").getByRole(\"button\", {\"name\":\"Confirm Order\"})'"}
+{"level":"success","message":"[Locator.isVisible] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}
+{"level":"success","message":"[Locator._expect] success on 'getByRole(\"heading\", {\"name\":\"Your order has been placed!\"})'"}

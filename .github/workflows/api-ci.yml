@@ -2,21 +2,21 @@ name: API CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
-      - 'API/**'
-      - '.github/workflows/api-ci.yml'
+      - "API/**"
+      - ".github/workflows/api-ci.yml"
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
-      - 'API/**'
-      - '.github/workflows/api-ci.yml'
+      - "API/**"
+      - ".github/workflows/api-ci.yml"
   workflow_dispatch:
     inputs:
       env:
-        description: 'Environment to run tests against'
+        description: "Environment to run tests against"
         required: true
-        default: 'qa'
+        default: "qa"
         type: choice
         options:
           - dev
@@ -31,7 +31,7 @@ jobs:
     defaults:
       run:
         working-directory: ./API
-    
+
     env:
       BASE_URL: "https://api.mapbox.com"
       LOG_LEVEL: "debug"
@@ -42,21 +42,21 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        
-      - name: Set up JDK 17
+
+      - name: Set up JDK 21
         uses: actions/setup-java@v3
         with:
-          java-version: '17'
-          distribution: 'temurin'
+          java-version: "21"
+          distribution: "temurin"
           cache: maven
-          
+
       - name: Run API Tests
         run: mvn clean test -Denv=${{ env.ENV_NAME }}
-        
+
       - name: Generate Allure Report
         if: always()
         run: mvn allure:report
-        
+
       - name: Upload Test Artifacts
         if: always()
         uses: actions/upload-artifact@v4

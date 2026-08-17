@@ -6727,3 +6727,621 @@
 {"level":"info","message":"Executing Step : Fixture \"storageState\""}
 {"level":"info","message":"Executing Step : Fixture \"authIsolation\""}
 {"level":"info","message":"Test Case Completed : Navigate by shop by category, select category and navigate to checkout page Status : passed"}
+{"level":"info","message":"Test Case Started : Navigate by shop by category, select category and navigate to checkout page"}
+{"level":"info","message":"Executing Step : Before Hooks"}
+{"level":"info","message":"Test Case Started : Navigate, search product and navigate to checkout page"}
+{"level":"info","message":"Executing Step : Fixture \"browser\""}
+{"level":"info","message":"Executing Step : Before Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"browser\""}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your Account Has Been Created!' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByText('Congratulations! Your new account has been successfully created!')"}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Create context"}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Create page"}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Navigate to \"/\""}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your Account Has Been Created!' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByText('Congratulations! Your new account has been successfully created!')"}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Create context"}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Create page"}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Navigate to \"/\""}
+{"level":"info","message":"Executing Step : Clear locator('#search').getByRole('textbox', { name: 'Search For Products' })"}
+{"level":"info","message":"Executing Step : Fill \"iPhone\" locator('#search').getByRole('textbox', { name: 'Search For Products' })"}
+{"level":"info","message":"Executing Step : Click locator('#search').getByRole('button', { name: 'Search' })"}
+{"level":"info","message":"Executing Step : Click locator('#entry_217832')"}
+{"level":"info","message":"Executing Step : Click locator('ul.navbar-nav.vertical > li.nav-item').getByRole('link', { name: 'Phone, Tablets & Ipod', exact: true })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('.content-title h1.h4')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.content-title h1.h4')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212408').locator('div.product-layout').first()"}
+{"level":"info","message":"Executing Step : Expect \"toHaveValue\" locator('#entry_212457').locator('#input-search')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.value\" locator('#entry_212457').locator('#input-search')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212469').locator('div.product-layout').first()"}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212469').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Click locator('#entry_212469').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212408').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Click locator('#entry_212408').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Expect \"toBeTruthy\""}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Click locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toContainText\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Click locator('[data-dismiss=\\'toast\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Click locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeTruthy\""}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for event \"response\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Click locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toContainText\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Click locator('[data-dismiss=\\'toast\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address')"}
+{"level":"info","message":"Executing Step : Click locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Fill \"Test\" locator('#payment-address').locator('#input-payment-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#payment-address').locator('#input-payment-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#payment-address').locator('#input-payment-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#payment-address').locator('#input-payment-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#payment-address').locator('#input-payment-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-zone')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Check getByLabel('I have read and agree to the Terms & Conditions').first()"}
+{"level":"info","message":"Executing Step : Wait for event \"response\""}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'VAT (20%)' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'VAT (20%)' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Click locator('#button-save')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'iPhone' }).locator('td').nth(3)"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address')"}
+{"level":"info","message":"Executing Step : Fill \"Test\" locator('#payment-address').locator('#input-payment-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#payment-address').locator('#input-payment-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#payment-address').locator('#input-payment-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#payment-address').locator('#input-payment-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#payment-address').locator('#input-payment-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-zone')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address').locator('#input-shipping-address-same')"}
+{"level":"info","message":"Executing Step : Click locator('label[for=\"input-shipping-address-same\"]')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Type \"Test\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#shipping-address').locator('#input-shipping-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#shipping-address').locator('#input-shipping-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#shipping-address').locator('#input-shipping-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#shipping-address').locator('#input-shipping-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#shipping-address').locator('#input-shipping-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#shipping-address').locator('#input-shipping-zone')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'VAT' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'iPhone' }).locator('td').nth(2)"}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Wait for load state \"load\""}
+{"level":"info","message":"Executing Step : Expect \"toBeEnabled\" locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"to.be.enabled\" locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Check getByLabel('I have read and agree to the Terms & Conditions').first()"}
+{"level":"info","message":"Executing Step : Click locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your order has been placed!' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" getByRole('heading', { name: 'Your order has been placed!' })"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Click locator('#button-save')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'HTC Touch HD' }).locator('td').nth(3)"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : After Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Close context"}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Fixture \"authIsolation\""}
+{"level":"info","message":"Test Case Completed : Navigate, search product and navigate to checkout page Status : passed"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'HTC Touch HD' }).locator('td').nth(2)"}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : After Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Close context"}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Fixture \"authIsolation\""}
+{"level":"info","message":"Executing Step : Worker Cleanup"}
+{"level":"info","message":"Executing Step : Fixture \"browser\""}
+{"level":"info","message":"Test Case Completed : Navigate by shop by category, select category and navigate to checkout page Status : failed"}
+{"level":"info","message":"Test Case Started : Navigate by shop by category, select category and navigate to checkout page"}
+{"level":"info","message":"Executing Step : Before Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"browser\""}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your Account Has Been Created!' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByText('Congratulations! Your new account has been successfully created!')"}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Create context"}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Create page"}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Navigate to \"/\""}
+{"level":"info","message":"Executing Step : Click locator('#entry_217832')"}
+{"level":"info","message":"Executing Step : Click locator('ul.navbar-nav.vertical > li.nav-item').getByRole('link', { name: 'Phone, Tablets & Ipod', exact: true })"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212408').locator('div.product-layout').first()"}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212408').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Click locator('#entry_212408').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeTruthy\""}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Click locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toContainText\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Click locator('[data-dismiss=\\'toast\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Click locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Wait for event \"response\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address')"}
+{"level":"info","message":"Executing Step : Fill \"Test\" locator('#payment-address').locator('#input-payment-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#payment-address').locator('#input-payment-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#payment-address').locator('#input-payment-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#payment-address').locator('#input-payment-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#payment-address').locator('#input-payment-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-zone')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address').locator('#input-shipping-address-same')"}
+{"level":"info","message":"Executing Step : Click locator('label[for=\"input-shipping-address-same\"]')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Type \"Test\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#shipping-address').locator('#input-shipping-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#shipping-address').locator('#input-shipping-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#shipping-address').locator('#input-shipping-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#shipping-address').locator('#input-shipping-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#shipping-address').locator('#input-shipping-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#shipping-address').locator('#input-shipping-zone')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Check getByLabel('I have read and agree to the Terms & Conditions').first()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Click locator('#button-save')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'HTC Touch HD' }).locator('td').nth(3)"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'HTC Touch HD' }).locator('td').nth(2)"}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Wait for load state \"load\""}
+{"level":"info","message":"Executing Step : Expect \"toBeEnabled\" locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"to.be.enabled\" locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Click locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your order has been placed!' })"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" getByRole('heading', { name: 'Your order has been placed!' })"}
+{"level":"info","message":"Executing Step : After Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Close context"}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Fixture \"authIsolation\""}
+{"level":"info","message":"Test Case Completed : Navigate by shop by category, select category and navigate to checkout page Status : passed"}
+{"level":"info","message":"Test Case Started : Navigate, search product and navigate to checkout page"}
+{"level":"info","message":"Test Case Started : Navigate by shop by category, select category and navigate to checkout page"}
+{"level":"info","message":"Executing Step : Before Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"browser\""}
+{"level":"info","message":"Executing Step : Before Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"browser\""}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your Account Has Been Created!' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByText('Congratulations! Your new account has been successfully created!')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your Account Has Been Created!' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByText('Congratulations! Your new account has been successfully created!')"}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Create context"}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Create page"}
+{"level":"info","message":"Executing Step : Create context"}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Create page"}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Navigate to \"/\""}
+{"level":"info","message":"Executing Step : Navigate to \"/\""}
+{"level":"info","message":"Executing Step : Clear locator('#search').getByRole('textbox', { name: 'Search For Products' })"}
+{"level":"info","message":"Executing Step : Click locator('#entry_217832')"}
+{"level":"info","message":"Executing Step : Click locator('ul.navbar-nav.vertical > li.nav-item').getByRole('link', { name: 'Phone, Tablets & Ipod', exact: true })"}
+{"level":"info","message":"Executing Step : Fill \"iPhone\" locator('#search').getByRole('textbox', { name: 'Search For Products' })"}
+{"level":"info","message":"Executing Step : Click locator('#search').getByRole('button', { name: 'Search' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('.content-title h1.h4')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.content-title h1.h4')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212408').locator('div.product-layout').first()"}
+{"level":"info","message":"Executing Step : Expect \"toHaveValue\" locator('#entry_212457').locator('#input-search')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.value\" locator('#entry_212457').locator('#input-search')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212469').locator('div.product-layout').first()"}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212469').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Click locator('#entry_212469').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212408').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Click locator('#entry_212408').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Expect \"toBeTruthy\""}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeTruthy\""}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Click locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toContainText\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Click locator('[data-dismiss=\\'toast\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Click locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Click locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toContainText\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Click locator('[data-dismiss=\\'toast\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Click locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Wait for event \"response\""}
+{"level":"info","message":"Executing Step : Wait for event \"response\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address')"}
+{"level":"info","message":"Executing Step : Fill \"Test\" locator('#payment-address').locator('#input-payment-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#payment-address').locator('#input-payment-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#payment-address').locator('#input-payment-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#payment-address').locator('#input-payment-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#payment-address').locator('#input-payment-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-zone')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Check getByLabel('I have read and agree to the Terms & Conditions').first()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'VAT (20%)' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'VAT (20%)' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Click locator('#button-save')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'iPhone' }).locator('td').nth(3)"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address')"}
+{"level":"info","message":"Executing Step : Fill \"Test\" locator('#payment-address').locator('#input-payment-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#payment-address').locator('#input-payment-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#payment-address').locator('#input-payment-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#payment-address').locator('#input-payment-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#payment-address').locator('#input-payment-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-zone')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address').locator('#input-shipping-address-same')"}
+{"level":"info","message":"Executing Step : Click locator('label[for=\"input-shipping-address-same\"]')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Type \"Test\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#shipping-address').locator('#input-shipping-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#shipping-address').locator('#input-shipping-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#shipping-address').locator('#input-shipping-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#shipping-address').locator('#input-shipping-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#shipping-address').locator('#input-shipping-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#shipping-address').locator('#input-shipping-zone')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Check getByLabel('I have read and agree to the Terms & Conditions').first()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Click locator('#button-save')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'HTC Touch HD' }).locator('td').nth(3)"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'VAT' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'iPhone' }).locator('td').nth(2)"}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Wait for load state \"load\""}
+{"level":"info","message":"Executing Step : Expect \"toBeEnabled\" locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"to.be.enabled\" locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Click locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your order has been placed!' })"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" getByRole('heading', { name: 'Your order has been placed!' })"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'HTC Touch HD' }).locator('td').nth(2)"}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : After Hooks"}
+{"level":"info","message":"Executing Step : After Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Close context"}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Fixture \"authIsolation\""}
+{"level":"info","message":"Executing Step : Worker Cleanup"}
+{"level":"info","message":"Executing Step : Fixture \"browser\""}
+{"level":"info","message":"Executing Step : Close context"}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Fixture \"authIsolation\""}
+{"level":"info","message":"Test Case Completed : Navigate, search product and navigate to checkout page Status : passed"}
+{"level":"info","message":"Test Case Completed : Navigate by shop by category, select category and navigate to checkout page Status : failed"}
+{"level":"info","message":"Test Case Started : Navigate by shop by category, select category and navigate to checkout page"}
+{"level":"info","message":"Executing Step : Before Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"browser\""}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Register Account' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your Account Has Been Created!' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByText('Congratulations! Your new account has been successfully created!')"}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Create context"}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Create page"}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Navigate to \"/\""}
+{"level":"info","message":"Executing Step : Click locator('#entry_217832')"}
+{"level":"info","message":"Executing Step : Click locator('ul.navbar-nav.vertical > li.nav-item').getByRole('link', { name: 'Phone, Tablets & Ipod', exact: true })"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212408').locator('div.product-layout').first()"}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_212408').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Click locator('#entry_212408').locator('.product-thumb .product-thumb-top').first()"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.breadcrumb-item').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeTruthy\""}
+{"level":"info","message":"Executing Step : Wait for load state \"domcontentloaded\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Click locator('#entry_216815').getByRole('button', { name: 'Add to Cart' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toContainText\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('.toast[role=\\'alert\\']')"}
+{"level":"info","message":"Executing Step : Click locator('[data-dismiss=\\'toast\\']')"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('[data-id=\"217825\"] a.cart').locator('.cart-item-total')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Click locator('.toast[role=\\'alert\\']').getByRole('link', { name: 'Checkout' })"}
+{"level":"info","message":"Executing Step : Wait for event \"response\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address')"}
+{"level":"info","message":"Executing Step : Fill \"Test\" locator('#payment-address').locator('#input-payment-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#payment-address').locator('#input-payment-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#payment-address').locator('#input-payment-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#payment-address').locator('#input-payment-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#payment-address').locator('#input-payment-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#payment-address').locator('#input-payment-zone')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#payment-address').locator('#input-shipping-address-same')"}
+{"level":"info","message":"Executing Step : Click locator('label[for=\"input-shipping-address-same\"]')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Type \"Test\" locator('#shipping-address').locator('#input-shipping-firstname')"}
+{"level":"info","message":"Executing Step : Fill \"User\" locator('#shipping-address').locator('#input-shipping-lastname')"}
+{"level":"info","message":"Executing Step : Fill \"123 Main Street\" locator('#shipping-address').locator('#input-shipping-address-1')"}
+{"level":"info","message":"Executing Step : Fill \"London\" locator('#shipping-address').locator('#input-shipping-city')"}
+{"level":"info","message":"Executing Step : Fill \"EC1A 1BB\" locator('#shipping-address').locator('#input-shipping-postcode')"}
+{"level":"info","message":"Executing Step : Select option locator('#shipping-address').locator('#input-shipping-country')"}
+{"level":"info","message":"Executing Step : Select option locator('#shipping-address').locator('#input-shipping-zone')"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total')"}
+{"level":"info","message":"Executing Step : Check getByLabel('I have read and agree to the Terms & Conditions').first()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" locator('#checkout-total').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Click locator('#button-save')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'HTC Touch HD' }).locator('td').nth(3)"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Sub-Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Flat Shipping Rate' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot')"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tfoot').locator('tr').filter({ hasText: 'Total' }).locator('td').last()"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').locator('.table-responsive table').locator('tbody tr').filter({ hasText: 'HTC Touch HD' }).locator('td').nth(2)"}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Expect \"toBe\""}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"toHaveText\" locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"to.have.text\" locator('#content').getByRole('heading', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Wait for load state \"load\""}
+{"level":"info","message":"Executing Step : Expect \"toBeEnabled\" locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"to.be.enabled\" locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Wait for selector locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Click locator('#content').getByRole('button', { name: 'Confirm Order' })"}
+{"level":"info","message":"Executing Step : Expect \"toBeVisible\" getByRole('heading', { name: 'Your order has been placed!' })"}
+{"level":"info","message":"Executing Step : Expect \"to.be.visible\" getByRole('heading', { name: 'Your order has been placed!' })"}
+{"level":"info","message":"Executing Step : After Hooks"}
+{"level":"info","message":"Executing Step : Fixture \"baseService\""}
+{"level":"info","message":"Executing Step : Fixture \"orderPage\""}
+{"level":"info","message":"Executing Step : Fixture \"checkoutPage\""}
+{"level":"info","message":"Executing Step : Fixture \"productPage\""}
+{"level":"info","message":"Executing Step : Fixture \"searchPage\""}
+{"level":"info","message":"Executing Step : Fixture \"homePage\""}
+{"level":"info","message":"Executing Step : Fixture \"page\""}
+{"level":"info","message":"Executing Step : Fixture \"context\""}
+{"level":"info","message":"Executing Step : Close context"}
+{"level":"info","message":"Executing Step : Fixture \"storageState\""}
+{"level":"info","message":"Executing Step : Fixture \"authIsolation\""}
+{"level":"info","message":"Test Case Completed : Navigate by shop by category, select category and navigate to checkout page Status : passed"}
