@@ -3,7 +3,7 @@
 This directory contains the backend API testing framework.
 
 ## 🛠️ Technology Stack
-* **Language:** Java 17
+* **Language:** Java 21
 * **Build Tool:** Maven
 * **Testing Framework:** TestNG
 * **API Client:** RestAssured
@@ -11,7 +11,7 @@ This directory contains the backend API testing framework.
 
 ## 🚀 Setup & Installation
 
-1. Ensure you have **JDK 17** installed and configured in your `JAVA_HOME`.
+1. Ensure you have **JDK 21** installed and configured in your `JAVA_HOME`.
 2. Ensure you have **Apache Maven** installed.
 3. (Optional but recommended) Install the [Allure command-line tool](https://docs.qameta.io/allure/) for viewing reports locally.
 4. Navigate to this directory and compile/resolve dependencies:
@@ -37,9 +37,14 @@ mvn clean test -Denv=dev
 ## 📦 Creating a Test Suite
 Test suites are managed via **TestNG XML** files located in `src/test/resources/`.
 To create a new suite, simply create a new `.xml` file (e.g., `regression.xml`) and specify the classes or packages.
-To run a specific suite (like the existing smoke suite):
+To run a specific suite (like the existing smoke suite), it is recommended to wrap the parameter in quotes:
 ```bash
-mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/smoke.xml
+mvn clean test "-Dsurefire.suiteXmlFiles=src/test/resources/smoke.xml"
+```
+
+If you also want to specify the environment (e.g., `dev`), you can combine them like this:
+```bash
+mvn clean test "-Dsurefire.suiteXmlFiles=src/test/resources/smoke.xml" -Denv=dev
 ```
 
 ## 📊 Viewing Reports
