@@ -1,0 +1,17 @@
+Method:
+PUT
+
+Url:
+https://api.mapbox.com/datasets/v1/mihaiqtr15/cmsx8ko7ad6n91nmsfv4qyc0i/features/feature-304?access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA
+
+path:
+/datasets/v1/mihaiqtr15/cmsx8ko7ad6n91nmsfv4qyc0i/features/feature-304
+
+access-token:
+sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA
+
+query-params:
+{access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA}
+
+Body:
+{"id":"feature-304","type":"Feature","geometry":{"type":"Point","coordinates":[72.533322,-22.63121]},"properties":{"name":"Feilberg"}}

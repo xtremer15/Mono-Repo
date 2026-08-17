@@ -1,0 +1,17 @@
+Method:
+PATCH
+
+Url:
+https://api.mapbox.com/datasets/v1/mihaiqtr15/cmsx8ko7g00gx1qleat2pf8wb?access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA
+
+path:
+/datasets/v1/mihaiqtr15/cmsx8ko7g00gx1qleat2pf8wb
+
+access-token:
+sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA
+
+query-params:
+{access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA}
+
+Body:
+{"name":"Patched Dataset Name","description":"Patched description"}

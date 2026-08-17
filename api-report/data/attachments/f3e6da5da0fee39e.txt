@@ -1,0 +1,7 @@
+Status Code:
+401
+
+Body:
+{
+    "message": "Not Authorized - Invalid Token"
+}

@@ -1,0 +1,18 @@
+Status Code:
+200
+
+Body:
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Mindabury"
+    },
+    "geometry": {
+        "coordinates": [
+            -29.829038,
+            -86.887848
+        ],
+        "type": "Point"
+    },
+    "id": "feature-to-update"
+}

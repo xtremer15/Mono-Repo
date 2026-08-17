@@ -1,0 +1,17 @@
+Method:
+PUT
+
+Url:
+https://api.mapbox.com/datasets/v1/mihaiqtr15/cmsx8ko7q00h81pnwwuioo8m4/features/feature-std?access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA
+
+path:
+/datasets/v1/mihaiqtr15/cmsx8ko7q00h81pnwwuioo8m4/features/feature-std
+
+access-token:
+sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA
+
+query-params:
+{access_token=sk.eyJ1IjoibWloYWlxdHIxNSIsImEiOiJjbXNzMXI2eGswNWIyMnlxdXZleHQ4dmg4In0.ZzBaTBpQm7M3uiZzMf3VoA}
+
+Body:
+{"id":"feature-std","type":"Feature","geometry":{"type":"Point","coordinates":[41.127575,76.933004]},"properties":{"name":"Standard Location"}}

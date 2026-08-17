@@ -1,0 +1,18 @@
+Status Code:
+200
+
+Body:
+{
+    "type": "Feature",
+    "properties": {
+        "name": "Feilberg"
+    },
+    "geometry": {
+        "coordinates": [
+            72.533322,
+            -22.63121
+        ],
+        "type": "Point"
+    },
+    "id": "feature-304"
+}
