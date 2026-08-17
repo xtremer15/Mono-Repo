@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node build.js",
     "test": "k6 run",
-    "test:qa": "k6 run -e TARGET_ENV=qa -e WORKLOAD=load",
+    "test:qa": "k6 run -e TARGET_ENV=qa -e WORKLOAD=load dist/homepage.spec.bundle.js",
     "test:dashboard": "node scripts/dashboard.js",
     "test:debug": "node scripts/debug.js"
   },

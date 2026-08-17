@@ -33,7 +33,7 @@ For example, to run tests against QA using a "load" profile:
 ```bash
 npm run test:qa
 # or directly:
-k6 run -e TARGET_ENV=qa -e WORKLOAD=load src/e2e/homepage.spec.ts
+k6 run -e TARGET_ENV=qa -e WORKLOAD=load dist/homepage.spec.bundle.js
 ```
 
 ## 📊 Viewing Reports
